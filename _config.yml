@@ -7,10 +7,10 @@
 
 # Site settings
 title: Game Development And Other Stupid Decisions
-email: hemangsk@gmail.com
+email: robinson.cameron90@gmail.com
 
 #write html inside the double quotes to display in jumbotron
-description: "<h3>Hello, world!</h3><h1>Game Development And Other Stupid Decisions</h1><h3>Awesome Jekyll Theme for Developers!</h3>Hope you like it!"
+description: "<h1>Game Development And Other Stupid Decisions</h1>"
 
 
 
