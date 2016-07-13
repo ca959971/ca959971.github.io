@@ -1,44 +1,103 @@
----
-layout: default
----
 
-<section>
-  <div class="jumbotron">
-    <div class="container">
-      {{site.description}}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/Site.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
 
-    </div>
+    <title></title>
+  </head>
+  <body>
+
+<!-- Navbar -->
+    <nav class="navbar #be9b7b darken-2 navbar-default">
+
+
+
+         <div class="container-fluid">
+             <ul class="nav navbar-nav">
+               <li>
+                     <a href="Index.html">Home</a>
+                   </li>
+                 </li>
+                 <li>
+                     <a href="About.html">About</a>
+                 </li>
+                 <li>
+                     <a href="Projects.html">Projects</a>
+                 </li>
+
+                 <li>
+                     <a href="Contact.html">Contact</a>
+                 </li>
+
+                 <li>
+                     <a href="http://ca959971.github.io/blog" target="_blank">Blog</a>
+                 </li>
+             </ul>
+
+       </nav>
+       <div class="valign-wrapper">
+
+       <div class="container z-depth-3">
+
+    <h1>Cameron Robinson</h1>
+    <p>My name is Cameron Robinson and I am a passionate engineer who loves to code.
+    Whether it is back-end or hard-coding objects and models or just making UX and UI
+    pleasurable client side,
+     I stay dedicated to doing good work.</p>
+
+  <p>I also am a video game junkie. You can find my blog about me creating
+    a video game <a href="http://ca959971.github.io/blog" target="_blank">here</a> as well as stuff I learn as a developer..</p>
 
 </div>
-</section>
+     </div>
+     <div class="valign-wrapper">
+       <div class="container">
+       <h2>Highiights </h2>
+     </div>
+     </div>
 
-<section id="page-content">
-  <div class="container">
-    <div class="post-list">
-  {%  for post in site.posts %}
-  <div class="post-box">
-    <div class="post-title">
-    <a class="post-title" href="{{post.url | prepend:site.baseurl }}" > {{ post.title }}</a>
-    </div>
-    <div class="post-excerpt">
-      {{ post.content | strip_html | truncatewords:20}}
-    </div>
-    <div class="posted">
-      posted on
-      <span class="posted-on">
+     <div class="container">
 
-        {{ post.date | date: "%A, %B %-d, %Y" }}
-      </span>
-      <span class="in">
-        in
-      </span>
-      <span class="categories-on">
-        {% for category in post.categories%}
-        {{category}} &nbsp;{% if forloop.last %}{% else %},{% endif %}
-        {% endfor %}
-      </span>
-    </div>
-  </div>
-  {% endfor %}
-  </div>
-</section>
+     <div class="row" id="cardText">
+          <div class="col s6 m6">
+            <div class="card small">
+              <div class="card-image">
+                <img src="Pics/CtHulu.PNG">
+                <span class="card-title">CtHulu</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Github</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 !-->
+          <div class="col s6 m6">
+            <div class="card small">
+              <div class="card-image">
+                <img src="Pics/DateNightPic.PNG">
+                <span class="card-title">CtHulu</span>
+              </div>
+              <div class="card-content">
+                <p>MVC Web Application For date ideas around the Cleveland area</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Github</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+  </body>
+</html>
