@@ -15,3 +15,6 @@ nav {
 h2 a{
   color:#b48484  #b88 ;
 }
+.img-circle {
+    border-radius: 50%;
+}
