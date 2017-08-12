@@ -34,3 +34,7 @@ background-size: cover;
 .input-field .prefix.active {
  color: #444;
 }
+
+.input-field label {
+  color: white;
+}
